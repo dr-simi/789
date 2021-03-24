@@ -53,7 +53,7 @@ const start = (kill = new Client()) => {
 						await sleep(4000)
 						await kill.removeParticipant(event.chat, event.who)
 					} else if (isWelkom) {
-						await kill.sendTextWithMentions(event.chat, `Hola @${event.who.replace('@c.us', '')}! 🥰 \n\nY bienvenido a ${name} 😎 \n\nQueremos que te diviertas y obviamente sigas nuestras reglas.! ✅ \n\nSi es necesario, llame a un administrador o escriba ${config.prefix}menu. 👨🏻‍💻`)
+						await kill.sendTextWithMentions(event.chat, `Hola @${event.who.replace('@c.us', '')}! 🥰 \n\nY bienvenido a ${name} 😎 \n\nQueremos que te diviertas y obviamente sigas nuestras reglas.! ✅ \n\nSi es necesario, llame a un administrador o escriba ${config.prefix}menu. 🏻‍💻`)
 					}
 				} else if (event.action == 'remove' && isWelkom) {
 					var profile = await kill.getProfilePicFromServer(event.who)
