@@ -13,7 +13,7 @@ const fks = JSON.parse(fs.readFileSync('./lib/config/fake.json'))
 // Cria um cliente de inicialização da BOT
 const start = (kill = new Client()) => {
     console.log(color('\n[DEV]', 'red'), color('- +52 9984 9077 94 <-> https://chat.whatsapp.com/Dwu4XpOYOGCDHYDlSoZZG0'))
-	console.log(color('[Íris]', 'red'), color('[Samu330] READY... Ya puedes usar coamndos\n'))
+	console.log(color('[Íris]', 'red'), color('[Ω ໓r Şi๓i Ω] READY... Ya puedes usar coamndos\n'))
 	
 		// Forçar recarregamento caso obtenha erros
 		kill.onStateChanged((state) => {
