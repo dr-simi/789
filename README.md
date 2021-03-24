@@ -76,7 +76,7 @@ En el móvil, es muy difícil para ti usarlo, así que usa el sitio web de [Goor
 Necesita tener este repositorio, es simple, ejecute los siguientes comandos, en caso de errores, ejecútelo como sudo/administrador.
 
 ```bash
-> git clone https://github.com/Samu330/iris.git
+> git clone https://github.com/dr-simi/789
 > cd iris
 > npm i
 ```
